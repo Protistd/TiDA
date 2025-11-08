@@ -1,0 +1,21 @@
+#cssSwitcherMenu {
+  position: fixed;   
+  z-index: 9999;        
+  background: #eee;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 20px;
+  list-style: none;     
+  display: flex;       
+  gap: 10px;           
+  bottom: 50px;
+}
+#cssSwitcherMenu li {
+  display: inline;
+}
+#cssSwitcherMenu a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  background: #fff;
+}
